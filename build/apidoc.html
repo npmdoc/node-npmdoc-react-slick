@@ -1,0 +1,510 @@
+<div class="apidocDiv">
+<style>
+/*csslint
+*/
+.apidocDiv {
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.apidocDiv a[href] {
+    color: #33f;
+    font-weight: bold;
+    text-decoration: none;
+}
+.apidocDiv a[href]:hover {
+    text-decoration: underline;
+}
+.apidocCodeCommentSpan {
+    background: #bbf;
+    color: #000;
+    display: block;
+}
+.apidocCodeKeywordSpan {
+    color: #d00;
+    font-weight: bold;
+}
+.apidocCodePre {
+    background: #eef;
+    border: 1px solid;
+    color: #777;
+    padding: 5px;
+    white-space: pre-wrap;
+}
+.apidocFooterDiv {
+    margin-top: 20px;
+    text-align: center;
+}
+.apidocModuleLi {
+    margin-top: 10px;
+}
+.apidocSectionDiv {
+    border-top: 1px solid;
+    margin-top: 20px;
+}
+.apidocSignatureSpan {
+    color: #777;
+    font-weight: bold;
+}
+</style>
+<h1>api documentation for
+    <a
+
+        href="https://github.com/akiran/react-slick"
+
+    >react-slick (v0.14.11)</a>
+</h1>
+<h4> React port of slick carousel</h4>
+<div class="apidocSectionDiv"><a
+    href="#apidoc.tableOfContents"
+    id="apidoc.tableOfContents"
+><h1>table of contents</h1></a><ol>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.react-slick">module react-slick</a><ol>
+
+        <li>
+
+            <span class="apidocSignatureSpan">boolean <span class="apidocSignatureSpan">react-slick.</span>__esModule</span>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-slick.default">
+            function <span class="apidocSignatureSpan">react-slick.</span>default
+            <span class="apidocSignatureSpan">(props)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">react-slick.</span>default.prototype</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.react-slick.default">module react-slick.default</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-slick.default.default">
+            function <span class="apidocSignatureSpan">react-slick.</span>default
+            <span class="apidocSignatureSpan">(props)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.react-slick.default.prototype">module react-slick.default.prototype</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-slick.default.prototype.componentWillMount">
+            function <span class="apidocSignatureSpan">react-slick.default.prototype.</span>componentWillMount
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-slick.default.prototype.componentWillUnmount">
+            function <span class="apidocSignatureSpan">react-slick.default.prototype.</span>componentWillUnmount
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-slick.default.prototype.innerSliderRefHandler">
+            function <span class="apidocSignatureSpan">react-slick.default.prototype.</span>innerSliderRefHandler
+            <span class="apidocSignatureSpan">(ref)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-slick.default.prototype.media">
+            function <span class="apidocSignatureSpan">react-slick.default.prototype.</span>media
+            <span class="apidocSignatureSpan">(query, handler)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-slick.default.prototype.render">
+            function <span class="apidocSignatureSpan">react-slick.default.prototype.</span>render
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-slick.default.prototype.slickGoTo">
+            function <span class="apidocSignatureSpan">react-slick.default.prototype.</span>slickGoTo
+            <span class="apidocSignatureSpan">(slide)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-slick.default.prototype.slickNext">
+            function <span class="apidocSignatureSpan">react-slick.default.prototype.</span>slickNext
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-slick.default.prototype.slickPrev">
+            function <span class="apidocSignatureSpan">react-slick.default.prototype.</span>slickPrev
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+</ol></div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.react-slick" id="apidoc.module.react-slick">module react-slick</a></h1>
+
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-slick.default" id="apidoc.element.react-slick.default">
+        function <span class="apidocSignatureSpan">react-slick.</span>default
+        <span class="apidocSignatureSpan">(props)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Slider(props) {
+  _classCallCheck(this, Slider);
+
+  var _this = _possibleConstructorReturn(this, _React$Component.call(this, props));
+
+  _this.state = {
+    breakpoint: null
+  };
+  _this._responsiveMediaHandlers = [];
+  _this.innerSliderRefHandler = _this.innerSliderRefHandler.bind(_this);
+  return _this;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.react-slick.default" id="apidoc.module.react-slick.default">module react-slick.default</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.react-slick.default.default" id="apidoc.element.react-slick.default.default">
+        function <span class="apidocSignatureSpan">react-slick.</span>default
+        <span class="apidocSignatureSpan">(props)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Slider(props) {
+  _classCallCheck(this, Slider);
+
+  var _this = _possibleConstructorReturn(this, _React$Component.call(this, props));
+
+  _this.state = {
+    breakpoint: null
+  };
+  _this._responsiveMediaHandlers = [];
+  _this.innerSliderRefHandler = _this.innerSliderRefHandler.bind(_this);
+  return _this;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.react-slick.default.prototype" id="apidoc.module.react-slick.default.prototype">module react-slick.default.prototype</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.react-slick.default.prototype.componentWillMount" id="apidoc.element.react-slick.default.prototype.componentWillMount">
+        function <span class="apidocSignatureSpan">react-slick.default.prototype.</span>componentWillMount
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function componentWillMount() {
+  var _this2 = this;
+
+  if (this.props.responsive) {
+    var breakpoints = this.props.responsive.map(function (breakpt) {
+      return breakpt.breakpoint;
+    });
+    breakpoints.sort(function (x, y) {
+      return x - y;
+    });
+
+    breakpoints.forEach(function (breakpoint, index) {
+      var bQuery;
+      if (index === 0) {
+        bQuery = (0, _json2mq2.default)({ minWidth: 0, maxWidth: breakpoint });
+      } else {
+        bQuery = (0, _json2mq2.default)({ minWidth: breakpoints[index - 1], maxWidth: breakpoint });
+      }
+      _canUseDom2.default &#x26;&#x26; _this2.media(bQuery, function () {
+        _this2.setState({ breakpoint: breakpoint });
+      });
+    });
+
+    // Register media query for full screen. Need to support resize from small to large
+    var query = (0, _json2mq2.default)({ minWidth: breakpoints.slice(-1)[0] });
+
+    _canUseDom2.default &#x26;&#x26; this.media(query, function () {
+      _this2.setState({ breakpoint: null });
+    });
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-slick.default.prototype.componentWillUnmount" id="apidoc.element.react-slick.default.prototype.componentWillUnmount">
+        function <span class="apidocSignatureSpan">react-slick.default.prototype.</span>componentWillUnmount
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function componentWillUnmount() {
+  this._responsiveMediaHandlers.forEach(function (obj) {
+    enquire.unregister(obj.query, obj.handler);
+  });
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-slick.default.prototype.innerSliderRefHandler" id="apidoc.element.react-slick.default.prototype.innerSliderRefHandler">
+        function <span class="apidocSignatureSpan">react-slick.default.prototype.</span>innerSliderRefHandler
+        <span class="apidocSignatureSpan">(ref)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function innerSliderRefHandler(ref) {
+  this.innerSlider = ref;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-slick.default.prototype.media" id="apidoc.element.react-slick.default.prototype.media">
+        function <span class="apidocSignatureSpan">react-slick.default.prototype.</span>media
+        <span class="apidocSignatureSpan">(query, handler)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function media(query, handler) {
+  enquire.register(query, handler);
+  this._responsiveMediaHandlers.push({ query: query, handler: handler });
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+	      breakpoints.forEach(function (breakpoint, index) {
+	        var bQuery;
+	        if (index === 0) {
+	          bQuery = (0, _json2mq2.default)({ minWidth: 0, maxWidth: breakpoint });
+	        } else {
+	          bQuery = (0, _json2mq2.default)({ minWidth: breakpoints[index - 1], maxWidth: breakpoint });
+	        }
+	        _canUseDom2.default &#x26;&#x26; _this2.<span class="apidocCodeKeywordSpan">media</span>(bQuery, function () {
+	          _this2.setState({ breakpoint: breakpoint });
+	        });
+	      });
+
+	      // Register media query for full screen. Need to support resize from small to large
+	      var query = (0, _json2mq2.default)({ minWidth: breakpoints.slice(-1)[0] });
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-slick.default.prototype.render" id="apidoc.element.react-slick.default.prototype.render">
+        function <span class="apidocSignatureSpan">react-slick.default.prototype.</span>render
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function render() {
+  var _this3 = this;
+
+  var settings;
+  var newProps;
+  if (this.state.breakpoint) {
+    newProps = this.props.responsive.filter(function (resp) {
+      return resp.breakpoint === _this3.state.breakpoint;
+    });
+    settings = newProps[0].settings === &#x27;unslick&#x27; ? &#x27;unslick&#x27; : (0, _objectAssign2.default)({}, this.props, newProps[0].settings
+);
+  } else {
+    settings = (0, _objectAssign2.default)({}, _defaultProps2.default, this.props);
+  }
+
+  var children = this.props.children;
+  if (!Array.isArray(children)) {
+    children = [children];
+  }
+
+  // Children may contain false or null, so we should filter them
+  children = children.filter(function (child) {
+    return !!child;
+  });
+
+  if (settings === &#x27;unslick&#x27;) {
+    // if &#x27;unslick&#x27; responsive breakpoint setting used, just return the &#x3c;Slider&#x3e; tag nested HTML
+    return _react2.default.createElement(
+      &#x27;div&#x27;,
+      null,
+      children
+    );
+  } else {
+    return _react2.default.createElement(
+      _innerSlider.InnerSlider,
+      _extends({ ref: this.innerSliderRefHandler }, settings),
+      children
+    );
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+&#x27;use strict&#x27;;
+
+import React from &#x27;react&#x27;
+import ReactDOM from &#x27;react-dom&#x27;
+import Docs from &#x27;./docs&#x27;
+
+React.initializeTouchEvents &#x26;&#x26; React.initializeTouchEvents(true);
+ReactDOM.<span class="apidocCodeKeywordSpan">render</span>(&#x3c;Docs /&#x3e;, document.getElementById(&#x27;rapp&#x27;));
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-slick.default.prototype.slickGoTo" id="apidoc.element.react-slick.default.prototype.slickGoTo">
+        function <span class="apidocSignatureSpan">react-slick.default.prototype.</span>slickGoTo
+        <span class="apidocSignatureSpan">(slide)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function slickGoTo(slide) {
+  this.innerSlider.slickGoTo(slide);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+	  };
+
+	  Slider.prototype.slickNext = function slickNext() {
+	    this.innerSlider.slickNext();
+	  };
+
+	  Slider.prototype.slickGoTo = function slickGoTo(slide) {
+	    this.innerSlider.<span class="apidocCodeKeywordSpan">slickGoTo</span>(slide);
+	  };
+
+	  Slider.prototype.render = function render() {
+	    var _this3 = this;
+
+	    var settings;
+	    var newProps;
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-slick.default.prototype.slickNext" id="apidoc.element.react-slick.default.prototype.slickNext">
+        function <span class="apidocSignatureSpan">react-slick.default.prototype.</span>slickNext
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function slickNext() {
+  this.innerSlider.slickNext();
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+	  };
+
+	  Slider.prototype.slickPrev = function slickPrev() {
+	    this.innerSlider.slickPrev();
+	  };
+
+	  Slider.prototype.slickNext = function slickNext() {
+	    this.innerSlider.<span class="apidocCodeKeywordSpan">slickNext</span>();
+	  };
+
+	  Slider.prototype.slickGoTo = function slickGoTo(slide) {
+	    this.innerSlider.slickGoTo(slide);
+	  };
+
+	  Slider.prototype.render = function render() {
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-slick.default.prototype.slickPrev" id="apidoc.element.react-slick.default.prototype.slickPrev">
+        function <span class="apidocSignatureSpan">react-slick.default.prototype.</span>slickPrev
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function slickPrev() {
+  this.innerSlider.slickPrev();
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+	  Slider.prototype.componentWillUnmount = function componentWillUnmount() {
+	    this._responsiveMediaHandlers.forEach(function (obj) {
+	      enquire.unregister(obj.query, obj.handler);
+	    });
+	  };
+
+	  Slider.prototype.slickPrev = function slickPrev() {
+	    this.innerSlider.<span class="apidocCodeKeywordSpan">slickPrev</span>();
+	  };
+
+	  Slider.prototype.slickNext = function slickNext() {
+	    this.innerSlider.slickNext();
+	  };
+
+	  Slider.prototype.slickGoTo = function slickGoTo(slide) {
+...</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocFooterDiv">
+    [ this document was created with
+    <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a>
+    ]
+</div>
+</div>
